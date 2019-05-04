@@ -1,4 +1,4 @@
-package com.vipkid.base.utils
+
 import android.app.Activity
 import android.content.Context
 import android.graphics.Color
@@ -6,6 +6,7 @@ import android.os.Build
 import android.support.annotation.ColorInt
 import android.view.View
 import android.view.WindowManager
+
 /**
  * Created by WWF
  * on 2018/6/6.

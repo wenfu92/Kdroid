@@ -5,11 +5,11 @@ import com.ashokvarma.bottomnavigation.BottomNavigationBar
 import com.vipkid.base.component.BaseActivity
 import com.vipkid.base.extentions.contentView
 import com.vipkid.base.extentions.topPadding
-import com.vipkid.base.utils.getStatusBarHeight
-import com.vipkid.base.utils.setStatusTransAndDarkIcon
 import com.vipkid.find.ui.fragment.FindFragment
 import com.vipkid.home.HomeFragment
+import getStatusBarHeight
 import kotlinx.android.synthetic.main.activity_main.*
+import setStatusTransAndDarkIcon
 import java.util.*
 
 class MainActivity : BaseActivity() {

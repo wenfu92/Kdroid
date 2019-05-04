@@ -1,20 +1,22 @@
 package com.vipkid.home
-import android.os.Bundle
-import android.support.v4.app.Fragment
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
+import com.vipkid.base.component.BaseFragment
+
 /**
  * Created by WWF
  * on 2019/4/30
  */
-class HomeFragment : Fragment() {
+class HomeFragment : BaseFragment() {
 
-    override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?,
-                              savedInstanceState: Bundle?): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+    override fun initdata() {
+
     }
+    override fun initView() {
+
+    }
+    override fun getLayoutId(): Int {
+        return  R.layout.fragment_home
+    }
+
 
 
 }
