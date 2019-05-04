@@ -1,7 +1,7 @@
 ## Kdroid 架构清单
 #### 工具 
    * Kotlin 
-   *< Kotlin Android Extensions
+   * Kotlin Android Extensions
    * KTX 
 #### 基础 
    * Jetpack 
